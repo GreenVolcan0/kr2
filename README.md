@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ### Запуск
 ```bash
-uvicorn task_3_1.app:app --reload --port 8001
+uvicorn task31.app:app --reload --port 8001
 ```
 
 ### Тест (curl)
@@ -44,7 +44,7 @@ curl -X POST http://localhost:8001/create_user \
 
 ### Запуск
 ```bash
-uvicorn task_3_2.app:app --reload --port 8002
+uvicorn task32.app:app --reload --port 8002
 ```
 
 ### Тест (curl)
@@ -80,7 +80,7 @@ curl http://localhost:8002/product/9999
 
 ### Запуск
 ```bash
-uvicorn task_5_1.app:app --reload --port 8003
+uvicorn task51.app:app --reload --port 8003
 ```
 
 ### Тест (curl)
@@ -109,7 +109,7 @@ curl -X POST http://localhost:8003/login \
 
 ### Запуск
 ```bash
-uvicorn task_5_2.app:app --reload --port 8004
+uvicorn task52.app:app --reload --port 8004
 ```
 
 ### Тест (curl)
@@ -134,7 +134,7 @@ curl http://localhost:8004/profile \
 
 ### Запуск
 ```bash
-uvicorn task_5_3.app:app --reload --port 8005
+uvicorn task53.app:app --reload --port 8005
 ```
 
 ### Тест (curl)
@@ -177,7 +177,7 @@ curl http://localhost:8005/profile \
 
 ### Запуск
 ```bash
-uvicorn task_5_4.app:app --reload --port 8006
+uvicorn task54.app:app --reload --port 8006
 ```
 
 ### Тест (curl)
@@ -203,7 +203,7 @@ curl http://localhost:8006/headers \
 
 ### Запуск
 ```bash
-uvicorn task_5_5.app:app --reload --port 8007
+uvicorn task55.app:app --reload --port 8007
 ```
 
 ### Тест (curl)
@@ -233,4 +233,4 @@ curl http://localhost:8007/info
 }
 ```
 И в HTTP-заголовках ответа: `X-Server-Time: 2025-04-16T12:34:56`
-
+```
